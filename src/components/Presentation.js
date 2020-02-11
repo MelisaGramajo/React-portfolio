@@ -8,7 +8,7 @@ const {name, roll, description} = this.props;
         <div>
             <h1>{name}</h1>
             <h2>{roll}</h2>
-            <h3>{description}</h3>
+            <h3 className="description">{description}</h3>
         </div>
 
     );
